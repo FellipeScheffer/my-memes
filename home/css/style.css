@@ -37,10 +37,15 @@ header{
     font-family: Cambria;
 }
 
+.memes{
+    padding-top: 30px;
+    text-align: center;
+}
+
 .painel .meme {
     background: silver;
     display: inline-block;
-    margin: 0 16px 32px 0;
+    margin: 0 20px 32px 0;
     padding: 18px;
     border-radius: 10px;
     width: auto;
@@ -49,17 +54,18 @@ header{
 
 .imagem_meme{
     width: 400px;
+    height: 300px;
     border-radius: 5px;
 }
 
 .nome_meme{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 20px;
     font-family:Calibri;
     font-weight: bold;
 }
 
 .controles_audio{
-    padding-left: 12%;
+    padding-top: 20px;
 }
